@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PropbindComponent } from './views/propbind/propbind.component';
+import { BindingComponent } from './views/binding/binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PropbindComponent
+    PropbindComponent,
+    BindingComponent
   ],
   imports: [
     BrowserModule,
