@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class Teste01Component {
 
+  title = 'Aplicativo de teste 01'
+
+  apresenta = 'Meu Primeiro APP Angular.'
+
+  imagem = '/assets/dofi.jpg'
 }
