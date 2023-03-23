@@ -1,0 +1,12 @@
+.textoed{
+    color:blue;
+    background-color: black;
+    text-align: center;
+    border: 2px solid blue;
+}
+
+.menu{
+    color:black;
+    background-color: rgb(230, 147, 12);
+    text-align: center;
+}
