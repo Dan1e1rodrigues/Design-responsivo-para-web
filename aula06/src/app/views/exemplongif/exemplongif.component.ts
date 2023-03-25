@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class ExemplongifComponent {
 
   ativado = false;
+  nome='';
 
   ligadoDesliga() {
     this.ativado = !this.ativado;
