@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class Teste03Component {
 
+  propriedade = 'Componete sendo usado';
+
+  nome = 'Daniel';
+
+  sobrenome = 'Rodrigues Yamato'
+
+  imagem = 'assets/luffy.jpg'
+
+  carnaval = 'DANIEL';
+
 }
