@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class Aula04ex01Component {
 
+  img01='dofi';
+
+  img02='god';
+
+  img03='luffy';
+  
+  constructor(){
+
+  }
+
 }
