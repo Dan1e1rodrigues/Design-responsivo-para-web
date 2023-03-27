@@ -2,4 +2,11 @@
     color:orange;
     background-color: yellow;
     border:2px solid black;
+    /* Para deixar os textos em maiusculos */
+    text-transform: uppercase;
+    /* Para deixar em minusculo lowercase */
+    /* text-transform: lowercase; */
+
+    /* texto em negrito */
+    font-weight: bold;
 }

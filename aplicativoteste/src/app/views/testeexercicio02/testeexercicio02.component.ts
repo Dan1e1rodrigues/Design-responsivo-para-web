@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class Testeexercicio02Component {
 
-  title='ALEMANHA'
+  title='alemanha'
 
 }
