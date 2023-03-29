@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class Aula04ex02Component {
 
-  
+  constructor(){
 
+  }
+
+  disableInput = 'assets/dofi.jpg';
+
+  tratarClick():void {
+    this.disableInput = this.disableInput;
+  }
 }
