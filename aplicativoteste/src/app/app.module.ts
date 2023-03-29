@@ -10,6 +10,7 @@ import { Testeexercicio02Component } from './views/testeexercicio02/testeexercic
 import { Aula04Component } from './views/aula04/aula04.component';
 import { Aula04ex01Component } from './views/aula04ex01/aula04ex01.component';
 import { ExpropybindComponent } from './views/expropybind/expropybind.component';
+import { Aula04ex02Component } from './views/aula04ex02/aula04ex02.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ExpropybindComponent } from './views/expropybind/expropybind.component'
     Testeexercicio02Component,
     Aula04Component,
     Aula04ex01Component,
-    ExpropybindComponent
+    ExpropybindComponent,
+    Aula04ex02Component
   ],
   imports: [
     BrowserModule,

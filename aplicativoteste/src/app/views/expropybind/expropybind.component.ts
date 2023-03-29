@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class ExpropybindComponent {
 
+  constructor(){
+
+  }
+
+  disableInput = false;
+
+  tratarClick():void {
+    this.disableInput = !this.disableInput;
+  }
 }
