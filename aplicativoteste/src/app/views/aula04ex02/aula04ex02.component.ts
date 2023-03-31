@@ -11,9 +11,8 @@ export class Aula04ex02Component {
 
   }
 
-  disableInput = 'assets/dofi.jpg';
-
   tratarClick():void {
-    this.disableInput = this.disableInput;
+  alert('ONE PIECE E REAL');
   }
+  
 }
