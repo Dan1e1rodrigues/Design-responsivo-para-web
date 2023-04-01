@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class Ex05Component {
 
-}
+  filmes = ['Avatar', 'Piranhas', 'Norbit'];
+  }
+
+  

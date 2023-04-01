@@ -1,10 +1,10 @@
-<h1>Atividade da aula 06</h1>
+<h1>Filmes</h1>
 
-<input type="number">
-<input type="number">
+<ol>
+    <li *ngFor="let filme of filmes">
+        <!-- Colocar o caminho das imagens, por preferencia salvar com o mesmo nome dos array -->
+        {{filme}} <img src="assets/{{filme}}.jpg">
+    </li>
+</ol>
 
-<button>+</button>
-<button>-</button>
-<button>*</button>
-<button>/</button>
 

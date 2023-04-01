@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { NgIfComponent } from './views/ng-if/ng-if.component';
 import { FormsModule } from '@angular/forms';
 import { Ex05Component } from './views/ex05/ex05.component';
+import { ExempforComponent } from './views/exempfor/exempfor.component';
+import { FortesteComponent } from './views/forteste/forteste.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NgIfComponent,
-    Ex05Component
+    Ex05Component,
+    ExempforComponent,
+    FortesteComponent
   ],
   imports: [
     BrowserModule,
