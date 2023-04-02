@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class Ativ01Component {
 
+  luffy = 'assets/luffy.jpg';
+
+  zoro = 'assets/zoro.jpg'
+
+  sanji = 'assets/sanji.jpg'
+  
+  constructor(){
+
+  }
+
 }
