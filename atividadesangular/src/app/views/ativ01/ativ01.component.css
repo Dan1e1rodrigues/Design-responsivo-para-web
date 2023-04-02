@@ -1,4 +1,16 @@
-.luffyed{
+.luffy{
+    background-color: yellow;
+    border:2px solid red;
+    width: 200px;
+}
+
+.zoro{
+    background-color: yellow;
+    border:2px solid red;
+    width: 200px;
+}
+
+.sanji{
     background-color: yellow;
     border:2px solid red;
     width: 200px;
