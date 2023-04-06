@@ -1,12 +1,18 @@
-<h1>Property Binding Atividade 01</h1>
+<h1>Property Binding Atividade 01 -- One Piece</h1>
 
 <!-- Imagem com Property binding -->
 
 <!-- luffy imagem -->
-<img [class] = "luffy" src="{{luffy}}">
+
+<!-- Primeiro devo criar meu class na tag, após isso eu nomeio ele para assim chamar no TS -->
+<img [class] = "styleluffy" 
+   src="{{sanji}}">
+<!-- Junto a isso eu chamo o meu TS via interpolação para assim minha imagem aparecer -->
+
+<!-- Após isso basta replicar o que eu fiz apenas alterando os nomes -->
 
 <!-- zoro imagem -->
-<img [class] = "zoro" src="{{zoro}}">
+<img [class] = "stylezoro" src="{{zoro}}">
 
 <!-- sanji imagem -->
-<img [class] = "sanji" src = "{{sanji}}">
+<img [class] = "stylesanji" src = "{{luffy}}">
