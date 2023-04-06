@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class Ativ02Component {
 
+  constructor(){}
+
+  tratarClick():void {
+    alert('Você quer trocar a imagem');
+  }
+ 
 }
+
