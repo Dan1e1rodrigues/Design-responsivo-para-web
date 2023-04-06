@@ -7,9 +7,7 @@ import { Component } from '@angular/core';
 })
 export class Aula04ex02Component {
 
-  constructor(){
-
-  }
+  constructor(){}
 
   tratarClick():void {
   alert('ONE PIECE E REAL');
