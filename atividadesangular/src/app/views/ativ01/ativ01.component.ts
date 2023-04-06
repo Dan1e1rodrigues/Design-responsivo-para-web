@@ -16,7 +16,7 @@ export class Ativ01Component {
 
 // ----------------------------------------------------------------------------------------
 
-//  Feito isso chamo meu class que criei no HTML e nomeio ele para editar o style
+//  Feito isso chamo meu class que criei no HTML e renomeio ele para editar o style
 
   styleluffy = 'luffy';
 
