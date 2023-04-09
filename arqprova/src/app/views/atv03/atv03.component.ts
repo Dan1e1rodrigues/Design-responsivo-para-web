@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class Atv03Component {
 
-  nome = 'Daniel'
-  sobrenome = 'Hiratsuca Aguiar'
+  nome: string = 'Daniel'
+  sobrenome: string = 'Hiratsuca Aguiar'
 
 }
