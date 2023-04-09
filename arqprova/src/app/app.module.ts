@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Atv01Component } from './views/atv01/atv01.component';
 import { Atv02dataComponent } from './views/atv02data/atv02data.component';
+import { Atv03Component } from './views/atv03/atv03.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Atv01Component,
-    Atv02dataComponent
+    Atv02dataComponent,
+    Atv03Component
   ],
   imports: [
     BrowserModule,

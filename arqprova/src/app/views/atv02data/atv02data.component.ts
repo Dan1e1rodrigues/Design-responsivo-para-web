@@ -16,4 +16,6 @@ export class Atv02dataComponent {
   ngOnInit(): void {
     this.dataAtual = new Date();
   }
+
+  title='o meu componente';
 }
