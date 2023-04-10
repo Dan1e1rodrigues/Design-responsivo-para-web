@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class Atv04Component {
 
+  title: string = 'Chamando um texto com letra maiuscula';
+
 }
