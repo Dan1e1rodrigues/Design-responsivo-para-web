@@ -11,7 +11,10 @@ export class Atv06Component {
   isImage1 = true;
 
   toggleImage() {
+    // Importante para definir se e true ou false, no caso true a imagem, principal e false a imagem que inverte
+    // E responsavel por fazer com que o toggle funcione
     this.isImage1 = !this.isImage1;
+    // Variavel
     if (this.isImage1) {
       this.imageUrl = 'assets/nami.jpg';
     } else {

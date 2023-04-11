@@ -1,6 +1,14 @@
 <h1>Mudar imagem</h1>
 
+<!-- Conteiner simples para div -->
 <div class="image-container">
+
+    <!-- imagem com a função toggle  -->
     <img [src]="imageUrl" alt="Imagem" (click)="toggleImage()">
+
+    <!-- Botão com a função toggle -->
     <button (click)="toggleImage()">Trocar Imagem</button>
+
+    <!-- E importante que tanto a imagem quanto o botão tenha o toggle pois precisamos deles para que a função 
+    funcione, pois e necessario saber por onde vamos trocar a imagem e que botão faz isso -->
   </div>
