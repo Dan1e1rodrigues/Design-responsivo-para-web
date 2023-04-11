@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class Atv04Component {
 
-  title: string = 'Chamando um texto com letra maiuscula';
+  carnaval: string = 'Chamando um texto para testar lowercase e uppercase';
 
 }
