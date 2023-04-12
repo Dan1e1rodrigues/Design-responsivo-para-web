@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class Atv07Component {
 
+  buttonText = '';
+
+  assignText(text: string) {
+    this.buttonText = text;
+  }
+  
 }
