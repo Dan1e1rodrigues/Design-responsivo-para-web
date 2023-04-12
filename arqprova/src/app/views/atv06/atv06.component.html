@@ -3,8 +3,9 @@
 <!-- Conteiner simples para div -->
 <div class="image-container">
 
+  
     <!-- imagem com a função toggle  -->
-    <img [src]="imageUrl" alt="Imagem" (click)="toggleImage()">
+    <img [class]="edicaoimg" src="{{imageUrl}}" (click)="toggleImage()">
 
     <!-- Botão com a função toggle -->
     <button (click)="toggleImage()">Trocar Imagem</button>

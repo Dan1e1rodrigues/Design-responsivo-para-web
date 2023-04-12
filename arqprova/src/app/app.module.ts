@@ -10,6 +10,7 @@ import { Atv04Component } from './views/atv04/atv04.component';
 import { Atividade03Component } from './views/atividade03/atividade03.component';
 import { Atv05Component } from './views/atv05/atv05.component';
 import { Atv06Component } from './views/atv06/atv06.component';
+import { Atv07Component } from './views/atv07/atv07.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Atv06Component } from './views/atv06/atv06.component';
     Atv04Component,
     Atividade03Component,
     Atv05Component,
-    Atv06Component
+    Atv06Component,
+    Atv07Component
   ],
   imports: [
     BrowserModule,
