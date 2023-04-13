@@ -29,5 +29,4 @@ export class Atv08Component {
     return(v1+v2)
   }
 
-  
 }
