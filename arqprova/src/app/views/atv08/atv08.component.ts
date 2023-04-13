@@ -13,11 +13,21 @@ export class Atv08Component {
 
   interprte: string = 'Manoel Gomes';
 
-  valor1= 3;
+  // valor1= 3;
 
-  valor2= 5;
+  // valor2= 5;
 
-  somar(valor1:number, valor2:number){
-    return valor1 + valor2;
+  // somar(valor1:number, valor2:number){
+  //   return valor1 + valor2;
+  // }
+
+  v1 = 3
+
+  v2 = 4
+
+  somar(v1:number,v2:number){
+    return(v1+v2)
   }
+
+  
 }
