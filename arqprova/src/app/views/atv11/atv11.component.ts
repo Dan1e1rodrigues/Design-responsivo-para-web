@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class Atv11Component {
 
-  nome = '';
+  nome = 'Digite algo';
 
 }
