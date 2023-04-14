@@ -17,6 +17,7 @@ import { Atv09Component } from './views/atv09/atv09.component';
 import { Atv10Component } from './views/atv10/atv10.component';
 import { Atv11Component } from './views/atv11/atv11.component';
 import { Atv12Component } from './views/atv12/atv12.component';
+import { Atv13Component } from './views/atv13/atv13.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { Atv12Component } from './views/atv12/atv12.component';
     Atv09Component,
     Atv10Component,
     Atv11Component,
-    Atv12Component
+    Atv12Component,
+    Atv13Component
   ],
   imports: [
     BrowserModule,
