@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,7 @@ import { Atv07Component } from './views/atv07/atv07.component';
 import { Atv08Component } from './views/atv08/atv08.component';
 import { Atv09Component } from './views/atv09/atv09.component';
 import { Atv10Component } from './views/atv10/atv10.component';
+import { Atv11Component } from './views/atv11/atv11.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +30,13 @@ import { Atv10Component } from './views/atv10/atv10.component';
     Atv07Component,
     Atv08Component,
     Atv09Component,
-    Atv10Component
+    Atv10Component,
+    Atv11Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
