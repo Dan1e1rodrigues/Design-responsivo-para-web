@@ -7,13 +7,10 @@ import { Component } from '@angular/core';
 })
 export class Aula04ex02Component {
 
-  constructor(){
-
-  }
-
-  disableInput = 'assets/dofi.jpg';
+  constructor(){}
 
   tratarClick():void {
-    this.disableInput = this.disableInput;
+  alert('ONE PIECE E REAL');
   }
+  
 }
