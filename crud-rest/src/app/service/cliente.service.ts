@@ -20,12 +20,13 @@ export class ClienteService {
     return this.http.post<Cliente>('http://localhost:3000/cliente', cliente);
   }
 
-  //
+  //put
   atualizar(cliente: Cliente){
     return this.http.put<Cliente>(`http://localhost:3000/cliente/${cliente.id}`, cliente);
   }
 
-  excluir(id: number){
+  //delete
+  excluir(id: number): Observable<any>{
     return this.http.delete(`http://localhost:3000/cliente/${id}`);
   }
 }

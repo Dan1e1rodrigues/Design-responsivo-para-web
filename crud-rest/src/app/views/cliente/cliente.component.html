@@ -1,0 +1,21 @@
+<button (click)="listar()">Listar</button>
+
+<ul>
+  <li *ngFor="let cliente of listaClientes ">
+    <span (click)="selecionar(cliente)" >{{cliente.nome}} </span>
+    <span (click)="remover(cliente.id)">X</span>
+  </li>
+</ul>
+
+<div>
+
+  <input type="text" [(ngModel)] = "cliente.nome">
+  <br><br>
+  <input type="text" [(ngModel)] = "cliente.cpf">
+  <br><br>
+
+  <button (click)="cancelar()">cancelar</button>
+  <br>
+  <button (click)="salvar()">Salvar</button>
+
+</div>
